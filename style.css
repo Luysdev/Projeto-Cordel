@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: rgba(250, 235, 215, 0);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+header h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+
+header p {
+   
+    padding-bottom: 50px;
+}
+
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+
+section.background_white {
+    background-color: white;
+    color: black;
+    z-index: 1;
+}
+
+section.background_img1 {
+    background-image: url(img/flor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.671);
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.363);
+}
+section.background_img2 {
+    background-image: url(img/livro.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* Efeito paralax */
+}
+
+section#img p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.377);
+    padding: 5px;
+    color: aliceblue;    
+}
+footer {
+    background-color: black;
+}
+
